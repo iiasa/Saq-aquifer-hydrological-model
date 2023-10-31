@@ -1,0 +1,28 @@
+flopy==3.3.5
+GDAL @ file:///C:/Users/smilovic/Downloads/GDAL-3.4.3-cp311-cp311-win_amd64.whl
+netCDF4==1.6.1
+numpy==1.23.4
+openpyxl==3.0.10
+pandas==1.5.1
+rasterio @ file:///C:/Users/smilovic/Downloads/rasterio-1.2.10-cp311-cp311-win_amd64.whl
+scipy==1.9.3
+xlrd==1.2.0
+xmipy==1.0.0
+
+Python 3.8
+
+Run with command 
+python CWatM-Saq\run_cwatm.py settings\settings-file.ini -l
+
+To be updated in the settings files:
+
+metaNetcdfFile = CWatM-Saq/metaNetcdf.xml
+path_mf6dll = P:\watmodel\Modflow\mf6
+
+References to the Modflow folder (not Saudi_Arabia/Modflow), now contained inside CWatM-Saq
+path_mf6dll = P:\watmodel\Modflow\mf6
+
+References to the Saudi_Arabia folder, now contained inside CWatM-Saq, for example
+MaskMap = P:/watmodel/CWATM/Saudi_Arabia/mask_saq.tif
+CWatM-Saq/Saudi_Arabia/Modflow (referred to here) is different than CWatM-Saq/Modflow (referred to in the aforementioned point)
+
