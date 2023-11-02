@@ -10,10 +10,10 @@ python Saq-aquifer-hydrological-model\run_cwatm.py settings\settings-file.ini -l
 
 Settings files relate to specific experiments. To tailor these for one's own system, the following are to be updated, including output folders and climate input:
 
+- References to the Modflow folder (not Saudi_Arabia/Modflow) should point to Saq-aquifer-hydrological-model/Modflow. This comes compressed.
+- References to the Saudi_Arabia folder should point to Saq-aquifer-hydrological-model/Saudi_Arabia.
+- References to cwatm_input_5min2 refer to the cwatm_input_5min.zip folder on the IIASA Water FTP server: ftp://rcwatm:Water1090@ftp.iiasa.ac.at/
 - metaNetcdfFile = Saq-aquifer-hydrological-model/metaNetcdf.xml
 
-- References to the Modflow folder (not Saudi_Arabia/Modflow) should point to Saq-aquifer-hydrological-model/Modflow. This comes compressed.
-
-- References to the Saudi_Arabia folder should point to Saq-aquifer-hydrological-model/Saudi_Arabia.
 
 Note, Saq-aquifer-hydrological-model/Saudi_Arabia/Modflow is different than Saq-aquifer-hydrological-model/Modflow.
